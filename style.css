@@ -1,36 +1,35 @@
 html{
-    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
 }
 
-.main-title{
+.title{
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 900;
-    font-size: 2.25rem;  
+    font-size: 2.25rem; 
+    text-align: center; 
     line-height: 1.5;  
-    color: #FFFFFF;   
-}
-
-.paragraph{
-    line-height: 1.5;
-    color: black;
-}
-
-.shadow{
+    color: #FFFFFF;
     text-shadow: 
     1px 1px 0px rgba(0, 0, 0, 0.5), 
     -6px -6px 0px rgba(255, 0, 255, 0.5), 
-    6px 6px 0px #00FFFF;
+    6px 6px 0px #00FFFF;   
 }
 
-.subtitle{
+.content{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+}
+
+
+.shout{
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 700;
     font-size: 1.5rem;
+    text-align: center;
     line-height: 1.5;
     color: #000000;
-}
-
-.text-center{
-    text-align: center;
 }
